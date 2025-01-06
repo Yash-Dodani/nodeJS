@@ -102,8 +102,19 @@ fs.writeFile('mynewfile3.txt' , "This is my text" , function(err){
 
 //Using fs.unlink()
 
-
+/*
 fs.unlink('mynewfile1.txt',function(err){
     if(err) throw err;
     console.log("deleted!!!");
 });
+
+*/
+
+
+//RenameFiles
+/*
+fs.rename('mynewfile1.txt' , 'yash.txt' , function(err){
+    if(err) throw err;
+    console.log("Renamed!!");
+});
+ */
